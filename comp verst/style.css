@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list_content{
+    display: flex;
+}
+
+.header_content{
+    padding-top: 48px;
+   background: url(img/main-screen__bgc.png) center center / cover no-repeat;
+   background-attachment: fixed;
+   min-height: 100vh;
+}
+
+.nav__refister{
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+border-radius: 50px;
+padding: 10px 30px;
+}
+.nav__content_link{
+    margin-left: 56px;
+    color: white;
+   
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+text-align: center;
+}
+.nav__content_link:hover {
+color: brown;
+transition: 0.1s;
+
+}
+.nav__refister:hover{
+    background: brown;
+    color: white;
+    transition: 0.10s;
+}
+.header__decs_text{
+   
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 140%;
+/* or 90px */
+margin-bottom: 0px;
+
+/* white */
+max-width: 980px;
+color: #FFFFFF;
+padding-bottom: 50px;
+}
+.header__description{
+display: flex;
+flex-direction: column;
+padding-top: 190px;
+flex-grow: 1!important;
+align-items: center;
+}
+.decript__title{
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.descript__light_title{
+    font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.4;
+padding-bottom: 20px;
+}
+.header_desc_content{
+margin-right: 30px;
+background: #121212;
+padding-left: 30px;
+padding-right: 30px;
+margin-bottom: 0px;
+border-radius: 10px;
+transition:0.5s;
+transform-style: preserve-3d;
+}
+.header__colums_content{
+display: flex;
+max-width: max-content;
+
+}
+.header_desc_content:hover{
+    background: brown;
+    transform: translateZ(15px);
+    border-radius: 10px;
+box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* ================ main ==========================*/ 
+
+.main__refister{
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    text-align: center;
+    
+    /* white */
+    
+    color: #FFFFFF;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    padding: 10px 30px;
+    }
+
+.main__refister:hover{
+    color: white;
+    background: brown;
+    transition: 0.25s;
+}
+.main__content{
+    background: #121212;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+.main__short_text{
+margin-bottom: 0px;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* white */
+
+color: #FFFFFF;
+
+opacity: 0.4;
+}
+.main__short_numb{
+    color: white;
+    margin-bottom: 0px;
+}
+
+.main__short_numbSec{
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 30px; 
+}
+.main__line{
+    width: 714px ;
+    height: 6px;
+    background: linear-gradient(94.78deg, #c4180c 11.19%, #ffffff 93.72%);
+    margin-top: 8px;
+}
+.main__short_lineContnet{
+    display: flex;
+}
+.end__line_short{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_desc_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__info_product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__case_img{
+    transform: rotateY(360deg);
+transition: 1s;
+}
+.main__case_img:hover{
+    transform: rotateY(180deg);
+
+}
+.main__info{
+    background: #0f0e0e;
+    padding-top: 100px;
+}
+.main_product_descrtTitle{
+    font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+/* or 67px */
+
+
+/* white */
+margin-bottom: 45px;
+color: #FFFFFF;
+}
+.main_product_information{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    width: 636px;
+    color: #FFFFFF;
+}
